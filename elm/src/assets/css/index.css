@@ -1,0 +1,223 @@
+/*elmHeader*/
+.elmHeader{
+    width: 100%;
+    /*height: 0.55rem;*/
+    background: linear-gradient(to right,#00aaff 0%,#0085fe 100%);
+    display: -webkit-flex;
+    flex-direction: column;
+    font-size: .16rem;
+    color: #fff;
+    padding: 0.2rem 0.1rem;
+    box-sizing: border-box;
+}
+.elmHeader a{
+    color: #fff;
+}
+/*header-index*/
+.headerTop{
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: space-between;
+}
+.headerTop a{
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    font-size: 0.18rem;
+}
+.headerTop a:first-child{
+    font-weight: 700;
+}
+.headerTop a:last-child{
+    font-size: 0.14rem;
+}
+.headerTop a span{
+    font-size: 0.18rem;
+}
+.headerTop a span{
+    margin: 0 0.06rem;
+}
+.headerTop a:first-child span:last-child{
+    font-size:0.1rem;
+}
+.search{
+    margin-top: 0.16rem;
+}
+.search .searchChild{
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    background: #fff;
+    padding: 0.11rem 0;
+    border-radius: 0.16rem;
+}
+.searchChild span{
+    font-size:0.14rem;
+    color: #7f7f7f;
+}
+.searchChild p{
+    font-size:0.11rem;
+    color:#b2b2b2;
+}
+/*index*/
+/*section*/
+
+/*panicBuying*/
+.panicBuying{
+    padding: 0 0.12rem;
+}
+.panicBuying a{
+    display: -webkit-flex;
+    width: 100%;
+    background: #ffeec2;
+    padding: 0.1rem 0;
+    border-radius: 3px;
+    color: #644f1a;
+    -webkit-justify-content: space-between;
+}
+.open{
+    display: -webkit-flex;
+    -webkit-align-items: center;
+}
+.open .icon-liwu{
+    font-size: 0.18rem;
+    color: #d6b362;
+    margin: 0 0.06rem 0 0.15rem;
+}
+.open h4{
+    font-size: 0.14rem;
+    font-weight: 700;
+}
+.open p{
+    font-size: 0.1rem;
+    margin-left: 0.06rem
+}
+.open .icon-jiantouyou{
+    font-size: 0.08rem;
+    margin: 0 0.11rem 0 0.06rem;
+}
+.buying a{
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    box-sizing: border-box;
+    padding: 0.15rem;
+    margin-top: .05rem;
+    background: #f5f5f5;
+}
+.buyingInfo h3{
+    font-weight: 700;
+    font-size: 0.15rem;
+    color: #333333;
+    margin-bottom: 0.03rem;
+}
+.buyingInfo .buyingInfoP{
+    font-size: 0.1rem;
+    color: #7f7f7d;
+}
+.buyingInfo p:last-child{
+    font-size: 0.12rem;
+    color: #d6b264;
+    font-weight: 700;
+    margin-top: 0.1rem;
+}
+.buying img{
+    width: 0.94rem;
+    height: 0.66rem;
+}
+/*banner*/
+.banner{
+    padding:0.12rem;
+}
+/*recommend*/
+.right{
+    margin-right: 0.07rem;
+}
+.recommend h3{
+    margin: 0.1rem;
+    font-size: 0.17rem;
+}
+.sort{
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: space-around;
+    padding: 0.12rem 0;
+    border-bottom: 1px solid #eeeeee;
+}
+.sort li{
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    font-size: 0.13rem;
+
+}
+.sort li:first-child{
+    font-weight: 700;
+}
+.sort li span{
+    margin: 0 0.09rem;
+    font-size: 0.1rem;
+}
+.productList{
+    padding: 0.1rem;
+}
+.product {
+    width: 100%;
+    display:-webkit-flex;
+    margin-top: 0.1rem;
+    /*-webkit-flex-direction: row;*/
+    /*-webkit-align-items: center;*/
+    /*-webkit-justify-content: center;*/
+}
+.productImg{
+    margin-right: 0.1rem;
+}
+.productImg img{
+    width:0.8rem;
+    height:0.8rem;
+    border-radius: 0.04rem;
+    border: 1px solid #e6e6e6;
+}
+.productInfo{
+    flex: 1;
+    /*border-bottom: 1px solid #eeeeee;*/
+}
+.productInfo li {
+    padding: 0.05rem 0;
+    font-size: 0.1rem;
+    color: #7f7f7f;
+    display:-webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-justify-content: space-between;
+}
+.productInfo li .iconfont{
+    font-size: 0.08rem;
+    color: #999;
+}
+.productInfo li h4{
+    font-size: 0.16rem;
+    color: #333333;
+}
+.productInfo .style{
+    display:-webkit-flex;
+    -webkit-align-items: center;
+}
+.productInfo .blue{
+    background: #01a6ff;
+    color: #fff;
+    padding: 0 0.02rem;
+}
+.productInfo .style .icon-hongxin{
+    color: #ff6300;
+    font-size: 0.11rem;
+}
+.productInfo .pink{
+    background: #e85951;
+    color: #fff;
+    padding: 0 0.02rem;
+}
+.productInfo .green{
+    background: #70BC46;
+    color: #fff;
+    padding: 0 0.02rem;
+}

@@ -1,0 +1,19 @@
+{
+    "navs":[
+      {"imgAddress":"../../../static/img/nav1.jpg","altTxt":"美食","navTit":"美食"},
+      {"imgAddress":"../../../static/img/nav1.jpg","altTxt":"商超便利","navTit":"商超便利"},
+      {"imgAddress":"../../../static/img/nav1.jpg","altTxt":"水果","navTit":"水果"},
+      {"imgAddress":"../../../static/img/nav1.jpg","altTxt":"跑腿代购","navTit":"跑腿代购"},
+      {"imgAddress":"../../../static/img/nav1.jpg","altTxt":"甜品饮品","navTit":"甜品饮品"},
+      {"imgAddress":"../../../static/img/nav1.jpg","altTxt":"星选好店","navTit":"星选好店"},
+      {"imgAddress":"../../../static/img/nav1.jpg","altTxt":"送药上门","navTit":"送药上门"},
+      {"imgAddress":"../../../static/img/nav1.jpg","altTxt":"大牌惠吃","navTit":"大牌惠吃"},
+      {"imgAddress":"../../../static/img/nav1.jpg","altTxt":"蜂鸟配送","navTit":"蜂鸟配送"},
+      {"imgAddress":"../../../static/img/nav1.jpg","altTxt":"签到领红包","navTit":"签到领红包"}
+    ],
+    "lbt":[
+      {"lbtPic":"../static/img/lb1.jpg","lbtAlt":"轮播图1"},
+      {"lbtPic":"../static/img/lb2.jpg","lbtAlt":"轮播图2"},
+      {"lbtPic":"../static/img/lb3.jpg","lbtAlt":"轮播图3"}
+    ]
+}

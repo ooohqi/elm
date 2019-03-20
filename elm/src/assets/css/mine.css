@@ -1,0 +1,103 @@
+
+/*section*/
+
+.wallet{
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    background: #fff;
+}
+.walletChild{
+    box-sizing: border-box;
+    width: 33.33%;
+    border-right: 1px solid #dddddd;
+}
+.walletChild:last-child{
+    border-right:none;
+}
+.walletChild a{
+    width: 100%;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-align-items: center;
+    font-size: 0.12rem;
+    color: #6a6a6a;
+    padding: 0.2rem 0;
+}
+.walletChild a p:first-child{
+    color: #007df8;
+}
+.walletChild a p span{
+    font-size: 0.18rem;
+}
+.member{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.22rem 0.16rem;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    /*justify-items: center;*/
+    background: #fff;
+    margin: 0.07rem 0;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+}
+.member img{
+    width: 0.53rem;
+    height: 0.4rem;
+    margin-right: 0.15rem;
+}
+.benefit h3{
+    font-size: 0.18rem;
+    color: #333333;
+}
+.benefit p{
+    margin-top: 0.07rem;
+    font-size: 0.12rem;
+    color: #666666;
+}
+.benefit h3 span{
+    color: #c0a325;
+}
+.connect ul{
+    display: -webkit-flex;
+    flex-direction: column;
+    width: 100%;
+}
+.connect ul li{
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    background: #fff;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: space-between;
+    padding: 0.15rem 0.16rem;
+}
+.connect .conLeft{
+    display: -webkit-flex;
+    -webkit-align-items: center;
+}
+.connect .conLeft h3{
+    font-size: 0.16rem;
+    color: #333333;
+    font-weight: normal;
+}
+.connect .conLeft .iconfont{
+    font-size: 0.18rem;
+    margin-right: 0.15rem;
+}
+.connect .conLeft .icon-hongxin{
+    color: #fc7b53;
+}
+.connect .conLeft .icon-qia{
+    color: #4ea6f0;
+}
+.connect ul li span{
+    color: #999999;
+    font-size: 0.12rem;
+}
+.connect ul li:first-child{
+    margin-bottom: 0.07rem;
+}
